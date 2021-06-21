@@ -12,15 +12,14 @@ def square(color):
 
 
 def guniv():
-    turtle.forward(200)
-    turtle.right(90)
-    turtle.forward(200)
-    turtle.right(90)
-    turtle.forward(200)
-    turtle.right(90)
-    turtle.forward(200)
+    turtle.fillcolor('white')
+    turtle.begin_fill()
+    for i in range(4):
+        turtle.forward(200)
+        turtle.right(90)
+    turtle.end_fill()
     turtle.up()
-    turtle.right(180)
+    turtle.right(90)
     turtle.forward(100)
     turtle.left(90)
     turtle.down()
