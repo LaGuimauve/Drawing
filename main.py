@@ -47,5 +47,4 @@ def guniv():
     turtle.forward(25)
     square('red')
     turtle.done()
-
 guniv()
